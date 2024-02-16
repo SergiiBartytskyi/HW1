@@ -55,6 +55,7 @@ const categoriesList = document.querySelector("#categories");
 console.log("Number of categories: ", categoriesList.children.length);
 
 const categories = categoriesList.querySelectorAll(".item");
+console.log("Number of categories: ", categories.length);
 
 // categories.forEach(category => {
 // 	const titleEl = category.querySelector("h2");
